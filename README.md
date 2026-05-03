@@ -68,5 +68,5 @@ http://localhost:5173/
 
 ## 👨‍💻 Author
 
-Muhammad Irfan Hakim
-2026
+Muhammad Irfan Hakim 
+UI/UX Web Developer
