@@ -1,16 +1,72 @@
-# React + Vite
+# 🎧 Music App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Deskripsi
 
-Currently, two official plugins are available:
+Aplikasi ini merupakan aplikasi daftar musik berbasis web yang digunakan untuk menampilkan daftar lagu serta melihat detail dari setiap lagu. Pengguna dapat melakukan pencarian lagu pada halaman Music dan melihat detail lagu melalui fitur dynamic routing.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Aplikasi ini dibangun menggunakan React.js dengan konsep Single Page Application (SPA), sehingga perpindahan halaman dapat dilakukan tanpa reload.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Fitur Utama
 
-## Expanding the ESLint configuration
+* Menampilkan daftar musik
+* Fitur pencarian lagu (search)
+* Melihat detail lagu (dynamic routing)
+* Navigasi antar halaman
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧭 Routing
+
+1. `/`
+   Halaman utama (Home) yang berisi tampilan awal aplikasi serta navigasi ke halaman lain.
+
+2. `/music`
+   Halaman daftar musik yang menampilkan list lagu serta fitur pencarian.
+
+3. `/music/:id`
+   Halaman detail musik yang menampilkan informasi lagu berdasarkan ID (dynamic route).
+
+4. `/about`
+   Halaman About yang berisi informasi mengenai aplikasi dan teknologi yang digunakan.
+
+5. `/contact`
+   Halaman Contact yang berisi informasi kontak pembuat aplikasi.
+
+---
+
+## ⚙️ Teknologi yang Digunakan
+
+* React.js
+* React Router DOM
+* JavaScript (ES6)
+* Vite
+
+---
+
+## 🧠 State Management
+
+Aplikasi ini menggunakan `useState` untuk mengelola data, seperti fitur pencarian lagu pada halaman Music.
+
+---
+
+## 🛠️ Cara Menjalankan Project
+
+```bash
+npm install
+npm run dev
+```
+
+Buka di browser:
+
+```
+http://localhost:5173/
+```
+
+---
+
+## 👨‍💻 Author
+
+Muhammad Irfan Hakim
+2026
